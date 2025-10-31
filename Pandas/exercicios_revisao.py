@@ -21,7 +21,7 @@ print(hotels['country'].value_counts().head(5),'\n')
 print(hotels.loc[hotels['adr'].idxmax(), ['adr','name']], '\n')
 
 # Calcula e mostra a média da tarifa diária (adr) arredondada para 2 casas decimais
-print(hotels['adr'].mean().round(2), '\n')
+print(round(hotels['adr'].mean(),2),'\n')
 
 # Calcula a soma das médias de noites em fim de semana e semana
 print(
@@ -48,10 +48,9 @@ print(
 
 # Mostra os hóspedes que fizeram 5 pedidos especiais, exibindo nome e email
 print(
-    hotels.loc[
-        (hotels['total_of_special_requests'] == 5), 
-        ['name','email']
-    ], 
+    hotels[
+        hotels['total_of_special_requests'] == 5 
+    ][['name','email']], 
     '\n'
 )
 
@@ -104,5 +103,19 @@ print(
         ]
         .index
     ),
+    '\n'
+)
+
+# Conta quantas chegadas ocorreram em cada dia, exibindo o total por dia da semana
+print(
+    hotels.assign(
+        arrival_date = pd.to_datetime(
+            hotels['arrival_date_year'].astype(str) + '-' +
+            hotels['arrival_date_month'].astype(str) + '-' +
+            hotels['arrival_date_day_of_month'].astype(str)
+        )
+    )['arrival_date']
+    .dt.day_name()
+    .value_counts(),
     '\n'
 )
