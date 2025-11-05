@@ -29,7 +29,7 @@ fig2, axes = plt.subplots(nrows=2, ncols=1)
 axes[0].plot(july16_2007)
 axes[0].set_title('July 16th, 2007')
 axes[0].set_xticks(range(len(labels)))
-axes[0].set_xticklabels(labels, rotation=45, ha='right')
+axes[0].set_xticklabels(labels)
 
 # Subplot 2 — 2020
 axes[1].plot(july16_2020)
