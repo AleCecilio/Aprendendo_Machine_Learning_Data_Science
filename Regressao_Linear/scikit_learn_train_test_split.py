@@ -34,6 +34,21 @@ from sklearn.model_selection import train_test_split
 X_train, X_test, Y_train, Y_test = train_test_split(X, Y, test_size=0.3, random_state=101)
 
 
-#continua...
 from sklearn.linear_model import LinearRegression
 model = LinearRegression()
+
+model.fit(X_train, Y_train)
+test_predictions =model.predict(X_test)
+
+from sklearn.metrics import mean_absolute_error, mean_squared_error
+
+print('\nMean Sales:', df['sales'].mean())
+
+sns.histplot(data=df, x='sales', bins=20)
+plt.show()
+
+# MAE
+print('\nMean Absolute Error:', mean_absolute_error(Y_test, test_predictions))
+
+# RMSE
+print('\nRoot Mean Squared Error:', np.sqrt(mean_squared_error(Y_test, test_predictions)))  
