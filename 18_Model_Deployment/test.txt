@@ -1,0 +1,3 @@
+Para testar o modelo como aplicação (Postman, Thunder Client, etc)
+http://127.0.0.1:5000/predict
+[{"TV":230.1, "radio":37.8, "newspaper":69.2 }]
