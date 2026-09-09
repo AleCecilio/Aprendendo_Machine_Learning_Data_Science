@@ -3,33 +3,19 @@
 > Repositório de estudos documentando minha evolução em Python, Análise de Dados e Machine Learning.
 
 ![Python](https://img.shields.io/badge/Python-3.13-3776AB?style=flat-square&logo=python&logoColor=white)
-
 ![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-F37626?style=flat-square&logo=jupyter&logoColor=white)
-
 ![Pandas](https://img.shields.io/badge/Pandas-3.0.1-150458?style=flat-square&logo=pandas&logoColor=white)
-
 ![NumPy](https://img.shields.io/badge/NumPy-2.4.2-013243?style=flat-square&logo=numpy&logoColor=white)
-
 ![Matplotlib](https://img.shields.io/badge/Matplotlib-3.10.8-11557C?style=flat-square&logo=matplotlib&logoColor=white)
-
 ![Seaborn](https://img.shields.io/badge/Seaborn-0.13.2-4C72B0?style=flat-square&logo=python&logoColor=white)
-
 ![SciPy](https://img.shields.io/badge/SciPy-1.17.1-8CAAE6?style=flat-square&logo=scipy&logoColor=white)
-
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-1.8.0-F7931E?style=flat-square&logo=scikitlearn&logoColor=white)
-
 ![Flask](https://img.shields.io/badge/Flask-3.1.3-000000?style=flat-square&logo=flask&logoColor=white)
-
 ![Requests](https://img.shields.io/badge/Requests-2.32.5-2E8B57?style=flat-square&logo=python&logoColor=white)
-
 ![BeautifulSoup](https://img.shields.io/badge/BeautifulSoup-4.14.3-4B8BBE?style=flat-square&logo=python&logoColor=white)
-
 ![Joblib](https://img.shields.io/badge/Joblib-1.5.3-FF6F00?style=flat-square&logo=python&logoColor=white)
-
 ![Git](https://img.shields.io/badge/Git-Version%20Control-F05032?style=flat-square&logo=git&logoColor=white)
-
 ![GitHub](https://img.shields.io/badge/GitHub-Repository-181717?style=flat-square&logo=github&logoColor=white)
-
 ![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)
 
 ---
